@@ -16,7 +16,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.25.2/CMakeSystem.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -270,7 +270,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -344,7 +344,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.25.2/CMakeRCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -423,7 +423,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "cmake-build-debug/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
+			"path" : "cmake-build-release/CMakeFiles/3.25.2/CMakeCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -434,7 +434,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Grade-Management-System/cmake-build-debug",
+		"build" : "D:/Grade-Management-System/cmake-build-release",
 		"source" : "D:/Grade-Management-System"
 	},
 	"version" : 
