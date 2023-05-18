@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/Src/addCourseBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/addStudentBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/addStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/changeCourseBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/changeStudentBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/changeStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/courseBaseInformLinkedList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/deleteCourseBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/deleteStudentBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/deleteStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/findCourseBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/findStudentBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/findStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/init.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/initCourseBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/initStudentBaseInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/initStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/main.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/menu.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/modeContinue.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/path.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/studentBaseInformLinkedList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/studentGradeInformLinkedList.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/subMenu.c" charset="GBK" />
+  </component>
+</project>

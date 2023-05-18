@@ -1,0 +1,10 @@
+//
+// Created by NianLee on 2023/5/18.
+//
+
+#ifndef GRADE_MANAGEMENT_SYSTEM_EXPORTDATA_H
+#define GRADE_MANAGEMENT_SYSTEM_EXPORTDATA_H
+
+#include "main.h"
+
+#endif //GRADE_MANAGEMENT_SYSTEM_EXPORTDATA_H
