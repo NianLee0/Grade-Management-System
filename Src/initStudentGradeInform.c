@@ -17,9 +17,16 @@ void loadStudentGradeInformFile(void)
 	char** temp;
 	int dataNum = 0;
 	int i = 0;
+	int position;
+	int ch;
 	temp = (char**)malloc(sizeof(char*) * 100);
 	FILE* fp = NULL;
-	fp = fopen(studentGradeInformFilePath, "r");
+	fp = fopen(studentGradeInformFilePath, "r+");
+	fseek(fp, -1, SEEK_END);
+	ch = fgetc(fp);
+	fseek(fp, 0, SEEK_END);
+	if (ch != '\r'&& ch != '\n')
+		fputc('\n', fp);
 	fseek(fp, 0, SEEK_END);
 	int num = ftell(fp);
 	fseek(fp, 0, SEEK_SET);
@@ -30,13 +37,20 @@ void loadStudentGradeInformFile(void)
 		fread(&temp[dataNum][i++], sizeof(char), 1, fp);
 		if (temp[dataNum][i - 1] == '\n')
 		{
+			position = ftell(fp);
+			ch = fgetc(fp);
+			fseek(fp, position, SEEK_SET);
+			while (k + 1 < num && (ch == '\n' || ch == '\r'))
+			{
+				ch = fgetc(fp);
+				k+=2;
+			}
 			temp[dataNum][i - 1] = '\0';
 			i = 0;
 			dataNum++;
 			k++;
 			temp[dataNum] = (char*)malloc(sizeof(char) * 100);
 		}
-		//TODO: 读取文件时，如果文件最后一行有多个换行符，会出现问题
 	}
 	initStudentGradeInform(temp, dataNum);
 	free(temp);

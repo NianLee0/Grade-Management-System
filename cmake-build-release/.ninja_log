@@ -26,3 +26,8 @@
 1518	2364	7061243153366282	CMakeFiles/Grade-management-system.dir/Src/studentGradeInformLinkedList.c.obj	7256436fd67f7f30
 1501	2390	7061243153622251	CMakeFiles/Grade-management-system.dir/Src/subMenu.c.obj	5e8a149f18ffdb68
 2390	2536	7061243155009975	Grade-management-system.exe	36f66f5d49b5956e
+2	692	7061321640609144	CMakeFiles/Grade-management-system.dir/Src/initStudentBaseInform.c.obj	b61a3f7c21d083ca
+4	718	7061321640882605	CMakeFiles/Grade-management-system.dir/Src/initCourseBaseInform.c.obj	c3cf1cc817ee65cd
+6	719	7061321640882605	CMakeFiles/Grade-management-system.dir/Src/initStudentGradeInform.c.obj	30a56f4da700aedb
+14	724	7061321640934279	CMakeFiles/Grade-management-system.dir/Src/modeContinue.c.obj	9f0f19e3c36877a5
+724	848	7061321642131999	Grade-management-system.exe	36f66f5d49b5956e

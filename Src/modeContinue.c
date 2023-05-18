@@ -85,7 +85,7 @@ void mode2Continue(void)
 void mode3Continue(void)
 {
 	char userSelectContinue;
-	printf("\n是否继续查询?(y/N) ");
+	printf("是否继续查询?(y/N) ");
 	getchar();
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
