@@ -39,196 +39,249 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/Study/StudyNotes-C/C_class/Grade_management_system/cmake-build-debug/
+cmake_ninja_workdir = D$:/Grade-Management-System/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target Grade_management_system
+# Object build statements for EXECUTABLE target Grade-management-system
 
 
 #############################################
-# Order-only phony target for Grade_management_system
+# Order-only phony target for Grade-management-system
 
-build cmake_object_order_depends_target_Grade_management_system: phony || CMakeFiles/Grade_management_system.dir
+build cmake_object_order_depends_target_Grade-management-system: phony || CMakeFiles/Grade-management-system.dir
 
-build CMakeFiles/Grade_management_system.dir/Src/GPA.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/GPA.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\GPA.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/GPA.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/GPA.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\GPA.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/addCourseBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/addCourseBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\addCourseBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/addCourseBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/addCourseBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\addCourseBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/addStudentBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/addStudentBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\addStudentBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/addStudentBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/addStudentBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\addStudentBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/addStudentGradeInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/addStudentGradeInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\addStudentGradeInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/addStudentGradeInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/addStudentGradeInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\addStudentGradeInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/changeCourseBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/changeCourseBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\changeCourseBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/changeCourseBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/changeCourseBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\changeCourseBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/changeStudentBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/changeStudentBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\changeStudentBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/changeStudentBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/changeStudentBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\changeStudentBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/changeStudentGradeInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/changeStudentGradeInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\changeStudentGradeInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/changeStudentGradeInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/changeStudentGradeInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\changeStudentGradeInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/courseBaseInformLinkedList.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/courseBaseInformLinkedList.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\courseBaseInformLinkedList.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/courseBaseInformLinkedList.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/courseBaseInformLinkedList.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\courseBaseInformLinkedList.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/deleteCourseBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/deleteCourseBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\deleteCourseBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/deleteCourseBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/deleteCourseBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\deleteCourseBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/deleteStudentBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/deleteStudentBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\deleteStudentBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/deleteStudentBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/deleteStudentBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\deleteStudentBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/deleteStudentGradeInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/deleteStudentGradeInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\deleteStudentGradeInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/deleteStudentGradeInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/deleteStudentGradeInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\deleteStudentGradeInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/exportData.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/exportData.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\exportData.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/exportData.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/exportData.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\exportData.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/findCourseBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/findCourseBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\findCourseBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/findCourseBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/findCourseBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\findCourseBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/findStudentBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/findStudentBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\findStudentBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/findStudentBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/findStudentBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\findStudentBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/findStudentGradeInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/findStudentGradeInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\findStudentGradeInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/findStudentGradeInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/findStudentGradeInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\findStudentGradeInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/init.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/init.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\init.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/init.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/init.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\init.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/initCourseBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/initCourseBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\initCourseBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/initCourseBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/initCourseBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\initCourseBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/initStudentBaseInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/initStudentBaseInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\initStudentBaseInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/initStudentBaseInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/initStudentBaseInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\initStudentBaseInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/initStudentGradeInform.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/initStudentGradeInform.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\initStudentGradeInform.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/initStudentGradeInform.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/initStudentGradeInform.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\initStudentGradeInform.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/main.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/main.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\main.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/main.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/main.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/menu.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/menu.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\menu.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/menu.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/menu.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\menu.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/modeContinue.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/modeContinue.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\modeContinue.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/modeContinue.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/modeContinue.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\modeContinue.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/path.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/path.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\path.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/path.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/path.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\path.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/studentBaseInformLinkedList.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/studentBaseInformLinkedList.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\studentBaseInformLinkedList.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/studentBaseInformLinkedList.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/studentBaseInformLinkedList.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\studentBaseInformLinkedList.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/studentGradeInformLinkedList.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/studentGradeInformLinkedList.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\studentGradeInformLinkedList.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/studentGradeInformLinkedList.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/studentGradeInformLinkedList.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\studentGradeInformLinkedList.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
-build CMakeFiles/Grade_management_system.dir/Src/subMenu.c.obj: C_COMPILER__Grade_management_system_Debug D$:/Study/StudyNotes-C/C_class/Grade_management_system/Src/subMenu.c || cmake_object_order_depends_target_Grade_management_system
-  DEP_FILE = CMakeFiles\Grade_management_system.dir\Src\subMenu.c.obj.d
+build CMakeFiles/Grade-management-system.dir/Src/subMenu.c.obj: C_COMPILER__Grade-management-system_Debug D$:/Grade-Management-System/Src/subMenu.c || cmake_object_order_depends_target_Grade-management-system
+  DEP_FILE = CMakeFiles\Grade-management-system.dir\Src\subMenu.c.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu11
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles\Grade_management_system.dir\Src
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
+  OBJECT_FILE_DIR = CMakeFiles\Grade-management-system.dir\Src
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_PDB = Grade-management-system.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Grade_management_system
+# Link build statements for EXECUTABLE target Grade-management-system
 
 
 #############################################
-# Link the executable Grade_management_system.exe
+# Link the executable Grade-management-system.exe
 
-build Grade_management_system.exe: C_EXECUTABLE_LINKER__Grade_management_system_Debug CMakeFiles/Grade_management_system.dir/Src/GPA.c.obj CMakeFiles/Grade_management_system.dir/Src/addCourseBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/addStudentBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/addStudentGradeInform.c.obj CMakeFiles/Grade_management_system.dir/Src/changeCourseBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/changeStudentBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/changeStudentGradeInform.c.obj CMakeFiles/Grade_management_system.dir/Src/courseBaseInformLinkedList.c.obj CMakeFiles/Grade_management_system.dir/Src/deleteCourseBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/deleteStudentBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/deleteStudentGradeInform.c.obj CMakeFiles/Grade_management_system.dir/Src/exportData.c.obj CMakeFiles/Grade_management_system.dir/Src/findCourseBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/findStudentBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/findStudentGradeInform.c.obj CMakeFiles/Grade_management_system.dir/Src/init.c.obj CMakeFiles/Grade_management_system.dir/Src/initCourseBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/initStudentBaseInform.c.obj CMakeFiles/Grade_management_system.dir/Src/initStudentGradeInform.c.obj CMakeFiles/Grade_management_system.dir/Src/main.c.obj CMakeFiles/Grade_management_system.dir/Src/menu.c.obj CMakeFiles/Grade_management_system.dir/Src/modeContinue.c.obj CMakeFiles/Grade_management_system.dir/Src/path.c.obj CMakeFiles/Grade_management_system.dir/Src/studentBaseInformLinkedList.c.obj CMakeFiles/Grade_management_system.dir/Src/studentGradeInformLinkedList.c.obj CMakeFiles/Grade_management_system.dir/Src/subMenu.c.obj
+build Grade-management-system.exe: C_EXECUTABLE_LINKER__Grade-management-system_Debug CMakeFiles/Grade-management-system.dir/Src/GPA.c.obj CMakeFiles/Grade-management-system.dir/Src/addCourseBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/addStudentBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/addStudentGradeInform.c.obj CMakeFiles/Grade-management-system.dir/Src/changeCourseBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/changeStudentBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/changeStudentGradeInform.c.obj CMakeFiles/Grade-management-system.dir/Src/courseBaseInformLinkedList.c.obj CMakeFiles/Grade-management-system.dir/Src/deleteCourseBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/deleteStudentBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/deleteStudentGradeInform.c.obj CMakeFiles/Grade-management-system.dir/Src/exportData.c.obj CMakeFiles/Grade-management-system.dir/Src/findCourseBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/findStudentBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/findStudentGradeInform.c.obj CMakeFiles/Grade-management-system.dir/Src/init.c.obj CMakeFiles/Grade-management-system.dir/Src/initCourseBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/initStudentBaseInform.c.obj CMakeFiles/Grade-management-system.dir/Src/initStudentGradeInform.c.obj CMakeFiles/Grade-management-system.dir/Src/main.c.obj CMakeFiles/Grade-management-system.dir/Src/menu.c.obj CMakeFiles/Grade-management-system.dir/Src/modeContinue.c.obj CMakeFiles/Grade-management-system.dir/Src/path.c.obj CMakeFiles/Grade-management-system.dir/Src/studentBaseInformLinkedList.c.obj CMakeFiles/Grade-management-system.dir/Src/studentGradeInformLinkedList.c.obj CMakeFiles/Grade-management-system.dir/Src/subMenu.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Grade_management_system.dir
+  OBJECT_DIR = CMakeFiles\Grade-management-system.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Grade_management_system.exe
-  TARGET_IMPLIB = libGrade_management_system.dll.a
-  TARGET_PDB = Grade_management_system.exe.dbg
+  TARGET_COMPILE_PDB = CMakeFiles\Grade-management-system.dir\
+  TARGET_FILE = Grade-management-system.exe
+  TARGET_IMPLIB = libGrade-management-system.dll.a
+  TARGET_PDB = Grade-management-system.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Study\StudyNotes-C\C_class\Grade_management_system\cmake-build-debug && "C:\Program Files\JetBrains\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D D:\Grade-Management-System\cmake-build-debug && "C:\Program Files\JetBrains\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -239,7 +292,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\Study\StudyNotes-C\C_class\Grade_management_system\cmake-build-debug && "C:\Program Files\JetBrains\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Study\StudyNotes-C\C_class\Grade_management_system -BD:\Study\StudyNotes-C\C_class\Grade_management_system\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\Grade-Management-System\cmake-build-debug && "C:\Program Files\JetBrains\apps\CLion\ch-0\231.8109.222\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\Grade-Management-System -BD:\Grade-Management-System\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -249,7 +302,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build Grade_management_system: phony Grade_management_system.exe
+build Grade-management-system: phony Grade-management-system.exe
 
 # =============================================================================
 # Folder targets.
@@ -257,9 +310,9 @@ build Grade_management_system: phony Grade_management_system.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/Study/StudyNotes-C/C_class/Grade_management_system/cmake-build-debug
+# Folder: D:/Grade-Management-System/cmake-build-debug
 
-build all: phony Grade_management_system.exe
+build all: phony Grade-management-system.exe
 
 # =============================================================================
 # Built-in targets
@@ -268,14 +321,14 @@ build all: phony Grade_management_system.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Study/StudyNotes-C/C_class/Grade_management_system/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Grade-Management-System/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Study/StudyNotes-C/C_class/Grade_management_system/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompiler.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCompilerIdDetection.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompileFeatures.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineCompilerId.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineRCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeDetermineSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeFindBinUtils.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseLibraryArchitecture.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCCompiler.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystem.cmake.in C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestCompilerCommon.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeTestRCCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Internal/FeatureTesting.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/apps/CLion/ch-0/231.8109.222/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/Grade-Management-System/CMakeLists.txt: phony
 
 
 #############################################
