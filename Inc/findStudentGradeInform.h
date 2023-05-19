@@ -8,8 +8,7 @@
 #include "main.h"
 #include "studentGradeInformLinkedList.h"
 #include "sort.h"
-
-void findStudentGradeInform(void);
+#include "GPA.h"
 
 void findStudentGradeInformByStudent(void);
 

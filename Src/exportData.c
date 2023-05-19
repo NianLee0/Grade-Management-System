@@ -16,7 +16,8 @@ void exportStudentData(void)
 {
 	char target[20];
 	int targetGrade[100][2];
-	float temp = 0;
+	float temp1 = 0;
+	float temp2 = 0;
 	float sumCredit = 0;
 	char exportPath[100] = { 0 };
 	int i, j;
@@ -73,8 +74,10 @@ void exportStudentData(void)
 						courseBaseInformation[j].name) == 0)
 					break;
 			}
-			temp = temp + transformStringToFloatNumber(courseBaseInformation[j].credit) *
-						  studentGradeInformation[targetGrade[i][0]].GPA;
+			temp1 = temp1 + transformStringToFloatNumber(courseBaseInformation[j].credit) *
+							studentGradeInformation[targetGrade[i][0]].GPA;
+			temp2 = temp2 + transformStringToFloatNumber(studentGradeInformation[targetGrade[i][0]].grade) *
+							transformStringToFloatNumber(courseBaseInformation[j].credit);
 			sumCredit = sumCredit + transformStringToFloatNumber(courseBaseInformation[j].credit);
 			fprintf(fp, "%-13s%-16s%-12s%-12s%.2f\n",
 					courseBaseInformation[j].number,
@@ -83,7 +86,8 @@ void exportStudentData(void)
 					studentGradeInformation[targetGrade[i][0]].grade,
 					studentGradeInformation[targetGrade[i][0]].GPA);
 		}
-		fprintf(fp, "\n平均绩点: %.2f\n", temp / sumCredit);
+		fprintf(fp, "\n平均绩点: %.2f\n", temp1 / sumCredit);
+		fprintf(fp, "加权平均分: %.2f\n", temp2 / sumCredit);
 	}
 	fclose(fp);
 	printf("\n导出成功!\n");

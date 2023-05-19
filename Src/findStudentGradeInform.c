@@ -17,6 +17,9 @@ void findStudentGradeInformByStudent(void)
 {
 	char findInform[20];
 	int i, j;
+	float temp1 = 0;
+	float temp2 = 0;
+	float sumCredit = 0;
 	int count = 0;
 	int target[100][2];
 	int k = 0;
@@ -39,8 +42,11 @@ void findStudentGradeInformByStudent(void)
 			count++;
 			if (count == 1)
 			{
-				printf("\n姓名: %s\n", studentGradeInformation[i].studentName);
+				system("cls");
+				printf("姓名: %s\n", studentGradeInformation[i].studentName);
 				printf("学号: %s\n", studentBaseInformation[j].number);
+				printf("性别: %s\n", studentBaseInformation[j].sex);
+				printf("年龄: %s\n\n", studentBaseInformation[j].age);
 			}
 			target[k++][0] = i;
 			target[k][0] = -1;
@@ -58,11 +64,18 @@ void findStudentGradeInformByStudent(void)
 				if (strcmp(studentGradeInformation[target[i][0]].courseName, courseBaseInformation[j].name) == 0)
 					break;
 			}
+			temp1 = temp1 + transformStringToFloatNumber(courseBaseInformation[j].credit) *
+							studentGradeInformation[target[i][0]].GPA;
+			temp2 = temp2 + transformStringToFloatNumber(studentGradeInformation[target[i][0]].grade) *
+							transformStringToFloatNumber(courseBaseInformation[j].credit);
+			sumCredit = sumCredit + transformStringToFloatNumber(courseBaseInformation[j].credit);
 			printf("课名: %-15s", studentGradeInformation[target[i][0]].courseName);
 			printf("课号: %-12s", courseBaseInformation[j].number);
 			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
 			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
 		}
+		printf("\n平均绩点: %.2f\n", temp1 / sumCredit);
+		printf("加权平均分: %.2f\n", temp2 / sumCredit);
 	}
 }
 
@@ -79,6 +92,8 @@ void findStudentGradeInformByCourse(void)
 {
 	char findInform[20];
 	int i, j;
+	float sumGrade = 0;
+	float sumGPA = 0;
 	int count = 0;
 	int target[100][2];
 	int k = 0;
@@ -101,8 +116,10 @@ void findStudentGradeInformByCourse(void)
 			count++;
 			if (count == 1)
 			{
-				printf("\n课名: %s\n", studentGradeInformation[i].courseName);
+				system("cls");
+				printf("课名: %s\n", studentGradeInformation[i].courseName);
 				printf("课号: %s\n", courseBaseInformation[j].number);
+				printf("学分: %s\n\n", courseBaseInformation[j].credit);
 			}
 			target[k++][0] = i;
 			target[k][0] = -1;
@@ -121,10 +138,14 @@ void findStudentGradeInformByCourse(void)
 						studentBaseInformation[j].name) == 0)
 					break;
 			}
+			sumGPA = sumGPA + studentGradeInformation[target[i][0]].GPA;
+			sumGrade = sumGrade + transformStringToFloatNumber(studentGradeInformation[target[i][0]].grade);
 			printf("学号: %-12s", studentBaseInformation[j].number);
 			printf("姓名: %-10s", studentGradeInformation[target[i][0]].studentName);
 			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
 			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
 		}
+		printf("\n平均分: %.2f\n", sumGrade / (float)count);
+		printf("平均绩点: %.2f\n", sumGPA / (float)count);
 	}
 }
