@@ -52,7 +52,7 @@ void deleteCourseBaseInformConfirm(int targetCourseNum)
 {
 	char confirm;
 	printf("\n确认删除该课程信息? (y/N): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &confirm);
 	if (confirm == 'Y' || confirm == 'y')
 		deleteCourseBaseInformFromStructure(targetCourseNum);

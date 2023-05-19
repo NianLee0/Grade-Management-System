@@ -17,12 +17,14 @@ void findStudentGradeInformByStudent(void)
 {
 	char findInform[20];
 	int i, j;
+	int page = 1;
 	float temp1 = 0;
 	float temp2 = 0;
 	float sumCredit = 0;
-	int count = 0;
+	int count1;
+	int count2 = 0;
 	int target[100][2];
-	int k = 0;
+	int k;
 	printf("请输入要查找的学生的姓名或学号: ");
 	scanf("%s", findInform);
 	for (j = 0; j < studentNum; j++)
@@ -35,12 +37,15 @@ void findStudentGradeInformByStudent(void)
 			break;
 		}
 	}
+nextPage:
+	k = 0;
+	count1 = 0;
 	for (i = 0; i < studentGradeNum; i++)
 	{
 		if (strcmp(studentGradeInformation[i].studentName, findInform) == 0)
 		{
-			count++;
-			if (count == 1)
+			count1++;
+			if (count1 == 1)
 			{
 				system("cls");
 				printf("姓名: %s\n", studentGradeInformation[i].studentName);
@@ -52,12 +57,13 @@ void findStudentGradeInformByStudent(void)
 			target[k][0] = -1;
 		}
 	}
-	if (count == 0)
+	if (count1 == 0)
 		printf("\n未找到该学生成绩信息!\n");
 	else
 	{
+		printf("*****************************************************************\n\n");
 		sortCourse(target);
-		for (i = 0; target[i][0] != -1; i++)
+		for (i = count2; target[i][0] != -1; i++)
 		{
 			for (j = 0; j < courseNum; j++)
 			{
@@ -73,7 +79,23 @@ void findStudentGradeInformByStudent(void)
 			printf("课号: %-12s", courseBaseInformation[j].number);
 			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
 			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
+			count2++;
+			if (count2 % 10 == 0)
+			{
+				printf("\n*****************************************************************\n");
+				printf("\n共 %d 条记录, 共 %d 页, 当前为第 %d 页\n", k,
+						(k % 10 == 0) ? (k / 10) : (k / 10 + 1),
+						page);
+				page++;
+				printf("按任意键跳转到下一页...");
+				fflush(stdin);
+				getchar();
+				goto nextPage;
+			}
 		}
+		printf("\n*****************************************************************\n");
+		printf("\n共 %d 条记录, 共 %d 页, 当前为最后一页\n", count1,
+				(count2 % 10 == 0) ? (count2 / 10) : (count2 / 10 + 1));
 		printf("\n平均绩点: %.2f\n", temp1 / sumCredit);
 		printf("加权平均分: %.2f\n", temp2 / sumCredit);
 	}
@@ -92,11 +114,13 @@ void findStudentGradeInformByCourse(void)
 {
 	char findInform[20];
 	int i, j;
+	int page = 1;
 	float sumGrade = 0;
 	float sumGPA = 0;
-	int count = 0;
+	int count1;
+	int count2 = 0;
 	int target[100][2];
-	int k = 0;
+	int k;
 	printf("请输入要查找的课程的课名或课号: ");
 	scanf("%s", findInform);
 	for (j = 0; j < courseNum; j++)
@@ -109,12 +133,15 @@ void findStudentGradeInformByCourse(void)
 			break;
 		}
 	}
+nextPage:
+	k = 0;
+	count1 = 0;
 	for (i = 0; i < studentGradeNum; i++)
 	{
 		if (strcmp(studentGradeInformation[i].courseName, findInform) == 0)
 		{
-			count++;
-			if (count == 1)
+			count1++;
+			if (count1 == 1)
 			{
 				system("cls");
 				printf("课名: %s\n", studentGradeInformation[i].courseName);
@@ -125,12 +152,13 @@ void findStudentGradeInformByCourse(void)
 			target[k][0] = -1;
 		}
 	}
-	if (count == 0)
+	if (count1 == 0)
 		printf("\n未找到该课程成绩信息!\n");
 	else
 	{
+		printf("*****************************************************************\n\n");
 		sortGrade(target);
-		for (i = 0; target[i][0] != -1; i++)
+		for (i = count2; target[i][0] != -1; i++)
 		{
 			for (j = 0; j < studentNum; j++)
 			{
@@ -144,8 +172,24 @@ void findStudentGradeInformByCourse(void)
 			printf("姓名: %-10s", studentGradeInformation[target[i][0]].studentName);
 			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
 			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
+			count2++;
+			if (count2 % 10 == 0)
+			{
+				printf("\n*****************************************************************\n");
+				printf("\n共 %d 条记录, 共 %d 页, 当前为第 %d 页\n", k,
+						(k % 10 == 0) ? (k / 10) : (k / 10 + 1),
+						page);
+				page++;
+				printf("按任意键跳转到下一页...");
+				fflush(stdin);
+				getchar();
+				goto nextPage;
+			}
 		}
-		printf("\n平均分: %.2f\n", sumGrade / (float)count);
-		printf("平均绩点: %.2f\n", sumGPA / (float)count);
+		printf("\n*****************************************************************\n");
+		printf("\n共 %d 条记录, 共 %d 页, 当前为最后一页\n", count1,
+				(count2 % 10 == 0) ? (count2 / 10) : (count2 / 10 + 1));
+		printf("\n平均分: %.2f\n", sumGrade / (float)count1);
+		printf("平均绩点: %.2f\n", sumGPA / (float)count1);
 	}
 }

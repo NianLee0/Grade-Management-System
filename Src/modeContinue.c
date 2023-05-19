@@ -16,7 +16,7 @@ void mode1Continue(void)
 {
 	char userSelectContinue;
 	printf("是否继续查询? (y/N): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
 		userSelectContinue == 'y')
@@ -52,7 +52,7 @@ void mode2Continue(void)
 	char userSelectContinue;
 	printf("\n操作成功!\n");
 	printf("是否继续添加/修改/删除？(y/N): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
 		userSelectContinue == 'y')
@@ -86,7 +86,7 @@ void mode3Continue(void)
 {
 	char userSelectContinue;
 	printf("是否继续查询?(y/N) ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
 		userSelectContinue == 'y')
@@ -122,7 +122,7 @@ void mode4Continue(void)
 	char userSelectContinue;
 	printf("\n操作成功!\n");
 	printf("是否继续添加/修改/删除？(y/N): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
 		userSelectContinue == 'y')
@@ -156,7 +156,7 @@ void mode5Continue(void)
 {
 	char userSelectContinue;
 	printf("\n是否继续查询? (y/N): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
 		userSelectContinue == 'y')

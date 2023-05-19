@@ -62,7 +62,7 @@ void saveCourseBaseInform(void)
 {
 	char choice;
 	printf("\n是否将信息保存至文件? (Y/n): ");
-	getchar();
+	fflush(stdin);
 	scanf("%c", &choice);
 	if (choice == 'Y' || choice == 'y' || choice == '\n')
 	{
