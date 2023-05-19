@@ -21,7 +21,7 @@ void mainMenu(void)
 	printf("4. 添加/修改/删除课程信息\n");
 	printf("5. 查询成绩信息\n");
 	printf("6. 添加/修改/删除成绩信息\n");
-	//printf("7. 导出数据\n");
+	printf("7. 导出数据\n");
 	printf("0. 退出系统\n");
 	printf("请输入你的选择(0~6): ");
 	userSelectMainMenu();
@@ -85,8 +85,8 @@ void userSelectMainMenu(void)
 		break;
 	case '7':
 		printf("导出数据\n");
-		//mode7SubMenu();
-		//mode7Continue();
+		mode7SubMenu();
+		mode7Continue();
 		break;
 	default:
 		system("cls");

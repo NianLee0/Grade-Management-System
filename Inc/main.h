@@ -10,6 +10,7 @@
 #include <stdlib.h>
 #include <Windows.h>
 #include <math.h>
+#include <time.h>
 
 typedef struct informLinkedList
 {

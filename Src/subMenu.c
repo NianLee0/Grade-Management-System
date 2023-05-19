@@ -179,3 +179,44 @@ void mode6SubMenu(void)
 		break;
 	}
 }
+
+/************************************************
+ * @Function: mode7SubMenu
+ * @Description: 模式七子菜单
+ * @Input: None
+ * @Return: None
+ * @Others: None
+ * @Author: NianLee
+ ************************************************/
+void mode7SubMenu(void)
+{
+	short userSelect;
+	system("cls");
+	printf("请选择你的操作：\n");
+	printf("1. 导出学生成绩信息\n");
+	printf("2. 导出课程成绩信息\n");
+	printf("0. 返回主菜单\n");
+	printf("请输入你的选择(0~2): ");
+	fflush(stdin);
+	scanf("%hd", &userSelect);
+	switch (userSelect)
+	{
+	case 0:
+		system("cls");
+		mainMenu();
+		break;
+	case 1:
+		printf("\n导出学生成绩信息\n");
+		exportStudentData();
+		break;
+	case 2:
+		printf("\n导出课程成绩信息\n");
+		exportCourseData();
+		break;
+	default:
+		system("cls");
+		printf("输入错误，请重新输入\n");
+		mode7SubMenu();
+		break;
+	}
+}

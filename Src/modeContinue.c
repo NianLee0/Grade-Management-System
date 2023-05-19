@@ -213,3 +213,38 @@ void mode6Continue(void)
 		mode6Continue();
 	}
 }
+
+/************************************************
+ * @Function: mode7Continue
+ * @Description: 模式七后续操作选择
+ * @Input: None
+ * @Return: None
+ * @Others: None
+ * @Author: NianLee
+ ************************************************/
+void mode7Continue(void)
+{
+	char userSelectContinue;
+	printf("\n是否继续导出数据? (y/N): ");
+	fflush(stdin);
+	scanf("%c", &userSelectContinue);
+	if (userSelectContinue == 'Y' ||
+		userSelectContinue == 'y')
+	{
+		system("cls");
+		mode7SubMenu();
+		mode7Continue();
+	}
+	else if (userSelectContinue == 'N' ||
+			 userSelectContinue == 'n' ||
+			 userSelectContinue == '\n')
+	{
+		system("cls");
+		mainMenu();
+	}
+	else
+	{
+		printf("输入错误，请重新输入\n");
+		mode7Continue();
+	}
+}

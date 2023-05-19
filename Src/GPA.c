@@ -14,7 +14,7 @@
  ************************************************/
 float calculateGPA(int num)
 {
-	float score = transformStringToNumber(studentGradeInformation[num].grade);
+	float score = transformStringToFloatNumber(studentGradeInformation[num].grade);
 	float GPA;
 	if (score >= 60 && score <= 100)
 		GPA = (score - 50) * 0.1f;
@@ -26,14 +26,14 @@ float calculateGPA(int num)
 }
 
 /************************************************
- * @Function: transformStringToNumber
+ * @Function: transformStringToFloatNumber
  * @Description: 将字符串转换为数字
  * @Input: string: 字符串
- * @Return: 数字
+ * @Return: GPA
  * @Others: None
  * @Author: NianLee
  ************************************************/
-float transformStringToNumber(char* string)
+float transformStringToFloatNumber(char* string)
 {
 	float result = 0;
 	int decimalPlace = -1;

@@ -25,4 +25,6 @@ void mode5Continue(void);
 
 void mode6Continue(void);
 
+void mode7Continue(void);
+
 #endif //GRADE_MANAGEMENT_SYSTEM_MODECONTINUE_H

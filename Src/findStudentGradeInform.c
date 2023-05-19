@@ -18,6 +18,8 @@ void findStudentGradeInformByStudent(void)
 	char findInform[20];
 	int i, j;
 	int count = 0;
+	int target[100][2];
+	int k = 0;
 	printf("请输入要查找的学生的姓名或学号: ");
 	scanf("%s", findInform);
 	for (j = 0; j < studentNum; j++)
@@ -40,13 +42,28 @@ void findStudentGradeInformByStudent(void)
 				printf("\n姓名: %s\n", studentGradeInformation[i].studentName);
 				printf("学号: %s\n", studentBaseInformation[j].number);
 			}
-			printf("课名: %-15s", studentGradeInformation[i].courseName);
-			printf("成绩: %-8s", studentGradeInformation[i].grade);
-			printf("绩点: %.2f\n", studentGradeInformation[i].GPA);
+			target[k++][0] = i;
+			target[k][0] = -1;
 		}
 	}
 	if (count == 0)
 		printf("\n未找到该学生成绩信息!\n");
+	else
+	{
+		sortCourse(target);
+		for (i = 0; target[i][0] != -1; i++)
+		{
+			for (j = 0; j < courseNum; j++)
+			{
+				if (strcmp(studentGradeInformation[target[i][0]].courseName, courseBaseInformation[j].name) == 0)
+					break;
+			}
+			printf("课名: %-15s", studentGradeInformation[target[i][0]].courseName);
+			printf("课号: %-12s", courseBaseInformation[j].number);
+			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
+			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
+		}
+	}
 }
 
 /************************************************
@@ -63,6 +80,8 @@ void findStudentGradeInformByCourse(void)
 	char findInform[20];
 	int i, j;
 	int count = 0;
+	int target[100][2];
+	int k = 0;
 	printf("请输入要查找的课程的课名或课号: ");
 	scanf("%s", findInform);
 	for (j = 0; j < courseNum; j++)
@@ -85,11 +104,27 @@ void findStudentGradeInformByCourse(void)
 				printf("\n课名: %s\n", studentGradeInformation[i].courseName);
 				printf("课号: %s\n", courseBaseInformation[j].number);
 			}
-			printf("姓名: %-10s", studentGradeInformation[i].studentName);
-			printf("成绩: %-8s", studentGradeInformation[i].grade);
-			printf("绩点: %.2f\n", studentGradeInformation[i].GPA);
+			target[k++][0] = i;
+			target[k][0] = -1;
 		}
 	}
 	if (count == 0)
 		printf("\n未找到该课程成绩信息!\n");
+	else
+	{
+		sortGrade(target);
+		for (i = 0; target[i][0] != -1; i++)
+		{
+			for (j = 0; j < studentNum; j++)
+			{
+				if (strcmp(studentGradeInformation[target[i][0]].studentName,
+						studentBaseInformation[j].name) == 0)
+					break;
+			}
+			printf("学号: %-12s", studentBaseInformation[j].number);
+			printf("姓名: %-10s", studentGradeInformation[target[i][0]].studentName);
+			printf("成绩: %-8s", studentGradeInformation[target[i][0]].grade);
+			printf("绩点: %.2f\n", studentGradeInformation[target[i][0]].GPA);
+		}
+	}
 }

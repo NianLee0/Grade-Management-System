@@ -7,6 +7,7 @@
 
 #include "main.h"
 #include "studentGradeInformLinkedList.h"
+#include "sort.h"
 
 void findStudentGradeInform(void);
 

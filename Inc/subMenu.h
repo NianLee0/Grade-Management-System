@@ -15,6 +15,7 @@
 #include "deleteStudentBaseInform.h"
 #include "deleteCourseBaseInform.h"
 #include "deleteStudentGradeInform.h"
+#include "exportData.h"
 
 void mode2SubMenu(void);
 
@@ -23,5 +24,7 @@ void mode4SubMenu(void);
 void mode5SubMenu(void);
 
 void mode6SubMenu(void);
+
+void mode7SubMenu(void);
 
 #endif //GRADE_MANAGEMENT_SYSTEM_SUBMENU_H

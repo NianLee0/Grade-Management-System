@@ -11,6 +11,7 @@
     <file url="file://$PROJECT_DIR$/Src/deleteCourseBaseInform.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Src/deleteStudentBaseInform.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Src/deleteStudentGradeInform.c" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Src/exportData.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Src/findCourseBaseInform.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Src/findStudentBaseInform.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Src/findStudentGradeInform.c" charset="GBK" />

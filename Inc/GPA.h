@@ -9,6 +9,6 @@
 
 float calculateGPA(int num);
 
-float transformStringToNumber(char* string);
+float transformStringToFloatNumber(char* string);
 
 #endif //GRADE_MANAGEMENT_SYSTEM_GPA_H

@@ -6,4 +6,4 @@ set(CMAKE_C_STANDARD 11)
 file(GLOB SOURCES "Src/*.c")
 file(GLOB HEADERS "Inc/*.h")
 
-add_executable(Grade-management-system ${SOURCES} ${HEADERS} Src/exportData.c Inc/exportData.h)
+add_executable(Grade-management-system ${SOURCES} ${HEADERS} Src/exportData.c Inc/exportData.h Src/sort.c Inc/sort.h)
