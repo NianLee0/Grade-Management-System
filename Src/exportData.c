@@ -88,6 +88,7 @@ void exportStudentData(void)
 		}
 		fprintf(fp, "\n平均绩点: %.2f\n", temp1 / sumCredit);
 		fprintf(fp, "加权平均分: %.2f\n", temp2 / sumCredit);
+		fprintf(fp,"总学分: %.1f\n", sumCredit);
 	}
 	fclose(fp);
 	printf("\n导出成功!\n");

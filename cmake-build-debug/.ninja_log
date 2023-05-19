@@ -76,3 +76,9 @@
 13	809	7062059072801809	CMakeFiles/Grade-management-system.dir/Src/modeContinue.c.obj	f1c94d93fa4566ee
 2	837	7062059073082105	CMakeFiles/Grade-management-system.dir/Src/changeStudentBaseInform.c.obj	ac025079f90979dd
 837	960	7062059074260460	Grade-management-system.exe	c84827ca45e73867
+2	622	7062073121661261	CMakeFiles/Grade-management-system.dir/Src/findStudentGradeInform.c.obj	4a126700f11aabb8
+4	623	7062073121671252	CMakeFiles/Grade-management-system.dir/Src/exportData.c.obj	254ee854d9109a30
+623	745	7062073122767299	Grade-management-system.exe	c84827ca45e73867
+5	608	7062073588454171	CMakeFiles/Grade-management-system.dir/Src/exportData.c.obj	254ee854d9109a30
+3	610	7062073588473906	CMakeFiles/Grade-management-system.dir/Src/findStudentGradeInform.c.obj	4a126700f11aabb8
+610	763	7062073589968857	Grade-management-system.exe	c84827ca45e73867

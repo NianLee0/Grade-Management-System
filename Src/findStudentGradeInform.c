@@ -98,6 +98,7 @@ nextPage:
 				(count2 % 10 == 0) ? (count2 / 10) : (count2 / 10 + 1));
 		printf("\n平均绩点: %.2f\n", temp1 / sumCredit);
 		printf("加权平均分: %.2f\n", temp2 / sumCredit);
+		printf("总学分: %.1f\n", sumCredit);
 	}
 }
 
