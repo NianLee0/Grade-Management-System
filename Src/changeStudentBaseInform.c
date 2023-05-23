@@ -15,10 +15,13 @@
 void changeStudentBaseInform(void)
 {
 	char target[20];
-	int i;
+	int count;
+	int targetStudentNum;
 	printf("请输入要修改的学生姓名或学号: ");
+whichOne:
 	scanf("%s", target);
-	for (i = 0; i < studentNum; i++)
+	count = 0;
+	for (int i = 0; i < studentNum; i++)
 	{
 		if (strcmp(studentBaseInformation[i].name, target) == 0 ||
 			strcmp(studentBaseInformation[i].number, target) == 0)
@@ -28,28 +31,46 @@ void changeStudentBaseInform(void)
 			printf("性别: %s\n", studentBaseInformation[i].sex);
 			printf("年龄: %s\n", studentBaseInformation[i].age);
 			printf("学号: %s\n", studentBaseInformation[i].number);
-			break;
+			targetStudentNum = i;
+			count++;
 		}
 	}
-	if (i == studentNum)
+	if (count == 0)
 	{
 		printf("\n未找到该学生!\n");
-		printf("请检查输入是否正确并重新输入!\n");
+		printf("请检查输入是否正确并重新输入!\n\n");
 		changeStudentBaseInform();
 	}
-	else
+	else if (count == 1)
 	{
 		printf("\n请输入修改后的学生信息:\n");
 		printf("姓名: ");
-		scanf("%s", studentBaseInformation[i].name);
+		scanf("%s", studentBaseInformation[targetStudentNum].name);
 		printf("性别: ");
-		scanf("%s", studentBaseInformation[i].sex);
+		scanf("%s", studentBaseInformation[targetStudentNum].sex);
 		printf("年龄: ");
-		scanf("%s", studentBaseInformation[i].age);
+		scanf("%s", studentBaseInformation[targetStudentNum].age);
 		printf("学号: ");
-		scanf("%s", studentBaseInformation[i].number);
+		scanf("%s", studentBaseInformation[targetStudentNum].number);
+	test:
+		for (int i = 0; i < studentNum; i++)
+		{
+			if (strcmp(studentBaseInformation[i].number, studentBaseInformation[targetStudentNum].number) == 0 &&
+				i != targetStudentNum)
+			{
+				printf("\n学号重复，请重新输入学号: ");
+				scanf("%s", studentBaseInformation[targetStudentNum].number);
+				goto test;
+			}
+		}
 		printf("修改成功!\n");
 		saveStudentBaseInform();
+	}
+	else
+	{
+		printf("\n有多个同名同姓的学生!\n");
+		printf("请输入该学生的学号以确定其身份: ");
+		goto whichOne;
 	}
 }
 

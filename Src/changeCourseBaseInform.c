@@ -33,7 +33,7 @@ void changeCourseBaseInform(void)
 	if (i == courseNum)
 	{
 		printf("\n未找到该学生!\n");
-		printf("请检查输入是否正确并重新输入!\n");
+		printf("请检查输入是否正确并重新输入!\n\n");
 		changeCourseBaseInform();
 	}
 	else
@@ -45,7 +45,25 @@ void changeCourseBaseInform(void)
 		scanf("%s", courseBaseInformation[i].name);
 		printf("学分: ");
 		scanf("%s", courseBaseInformation[i].credit);
-		printf("修改成功!\n");
+	test:
+		for (int j = 0; j < courseNum; j++)
+		{
+			if (strcmp(courseBaseInformation[i].number, courseBaseInformation[j].number) == 0 &&
+				i != j)
+			{
+				printf("\n课程号重复，请重新输入课程号: ");
+				scanf("%s", courseBaseInformation[i].number);
+				goto test;
+			}
+			if (strcmp(courseBaseInformation[i].name, courseBaseInformation[j].name) == 0 &&
+				i != j)
+			{
+				printf("\n课程名重复，请重新输入课程名: ");
+				scanf("%s", courseBaseInformation[i].name);
+				goto test;
+			}
+		}
+		printf("\n修改成功!\n");
 		saveCourseBaseInform();
 	}
 }

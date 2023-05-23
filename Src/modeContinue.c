@@ -15,7 +15,7 @@
 void mode1Continue(void)
 {
 	char userSelectContinue;
-	printf("是否继续查询? (y/N): ");
+	printf("\n是否继续查询? (y/N): ");
 	fflush(stdin);
 	scanf("%c", &userSelectContinue);
 	if (userSelectContinue == 'Y' ||
@@ -30,7 +30,7 @@ void mode1Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -65,7 +65,7 @@ void mode2Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -100,7 +100,7 @@ void mode3Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -135,7 +135,7 @@ void mode4Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -170,7 +170,7 @@ void mode5Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -205,7 +205,7 @@ void mode6Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{
@@ -240,7 +240,7 @@ void mode7Continue(void)
 			 userSelectContinue == '\n')
 	{
 		system("cls");
-		mainMenu();
+		return;
 	}
 	else
 	{

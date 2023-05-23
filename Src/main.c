@@ -1,10 +1,10 @@
 #include "../Inc/init.h"
 #include "../Inc/menu.h"
-#include "../Inc/exportData.h"
+
 int main(void)
 {
 	init();
-	mainMenu();
-	//exportStudentData();
+	while(1)
+		mainMenu();
 	return 0;
 }

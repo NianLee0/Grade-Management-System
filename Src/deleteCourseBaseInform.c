@@ -33,7 +33,7 @@ void deleteCourseBaseInform(void)
 	if (i == courseNum)
 	{
 		printf("\n未找到该课程!\n");
-		printf("请检查输入是否正确并重新输入!\n");;
+		printf("请检查输入是否正确并重新输入!\n\n");;
 		deleteCourseBaseInform();
 	}
 	else

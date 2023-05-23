@@ -6,7 +6,7 @@
 
 /************************************************
  * @Function: exportStudentData
- * @Description: 导出学生数据
+ * @Description: 管理员通过输入学生姓名或学号导出学生数据
  * @Input: None
  * @Return: None
  * @Others: None
@@ -96,7 +96,7 @@ void exportStudentData(void)
 
 /************************************************
  * @Function: exportCourseData
- * @Description: 导出课程数据
+ * @Description: 管理员通过输入课程课名或课号导出课程数据
  * @Input: None
  * @Return: None
  * @Others: None

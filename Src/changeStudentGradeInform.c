@@ -6,7 +6,7 @@
 
 /************************************************
  * @Function: changeStudentBaseInform
- * @Description: 管理员通过输入修改学生信息,包括姓名、性别、年龄、学号
+ * @Description: 管理员通过输入修改学生成绩信息,包括姓名、课名、成绩
  * @Input: None
  * @Return: None
  * @Others: None

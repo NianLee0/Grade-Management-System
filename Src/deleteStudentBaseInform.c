@@ -16,8 +16,11 @@ void deleteStudentBaseInform(void)
 {
 	char target[20];
 	int i;
+	int count;
 	printf("请输入要删除的学生的姓名或学号: ");
+whichOne:
 	scanf("%s", target);
+	count = 0;
 	for (i = 0; i < studentNum; i++)
 	{
 		if (strcmp(studentBaseInformation[i].name, target) == 0 ||
@@ -28,17 +31,23 @@ void deleteStudentBaseInform(void)
 			printf("性别: %s\n", studentBaseInformation[i].sex);
 			printf("年龄: %s\n", studentBaseInformation[i].age);
 			printf("学号: %s\n", studentBaseInformation[i].number);
-			break;
+			count++;
 		}
 	}
-	if (i == studentNum)
+	if (count == 0)
 	{
 		printf("\n未找到该学生!\n");
-		printf("请检查输入是否正确并重新输入!\n");;
+		printf("请检查输入是否正确并重新输入!\n\n");;
 		deleteStudentBaseInform();
 	}
-	else
+	else if (count == 1)
 		deleteStudentBaseInformConfirm(i);
+	else
+	{
+		printf("\n有多个同名同姓的学生!\n");
+		printf("请输入该学生的学号以确定其身份: ");
+		goto whichOne;
+	}
 }
 
 /************************************************

@@ -27,8 +27,7 @@ void mode2SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		mainMenu();
-		break;
+		return;
 	case 1:
 		printf("\n添加学生信息\n");
 		addStudentBaseInformToFile();
@@ -72,8 +71,7 @@ void mode4SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		mainMenu();
-		break;
+		return;
 	case 1:
 		printf("\n添加课程信息\n");
 		addCourseBaseInformToFile();
@@ -117,8 +115,7 @@ void mode5SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		mainMenu();
-		break;
+		return;
 	case 1:
 		printf("\n查找学生成绩单\n");
 		findStudentGradeInformByStudent();
@@ -158,8 +155,7 @@ void mode6SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		mainMenu();
-		break;
+		return;
 	case 1:
 		printf("\n添加学生信息\n");
 		addStudentGradeInformToFile();
@@ -203,8 +199,7 @@ void mode7SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		mainMenu();
-		break;
+		return;
 	case 1:
 		printf("\n导出学生成绩信息\n");
 		exportStudentData();

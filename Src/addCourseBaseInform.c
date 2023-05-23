@@ -67,6 +67,21 @@ void addCourseBaseInformToFile(void)
 	char inform[100];
 	informLinkedList* head;
 	head = addCourseBaseInform();
+	for(int i = 0;i<courseNum;i++)
+	{
+		if(strcmp(courseBaseInformation[i].number, head->next->data) == 0)
+		{
+			printf("\n课程号重复,请重新输入\n\n");
+			addCourseBaseInformToFile();
+			return;
+		}
+		if(strcmp(courseBaseInformation[i].name, head->next->next->data) == 0)
+		{
+			printf("\n课程名重复,请重新输入\n\n");
+			addCourseBaseInformToFile();
+			return;
+		}
+	}
 	sprintf(inform, "%s,%s,%s\n",
 			head->next->data,
 			head->next->next->data,

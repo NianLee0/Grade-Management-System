@@ -17,6 +17,7 @@ void findStudentBaseInform(void)
 {
 	char findInform[20];
 	int i;
+	int count = 0;
 	printf("请输入要查找的学生的姓名或学号: ");
 	scanf("%s", findInform);
 	for (i = 0; i < studentNum; i++)
@@ -27,10 +28,10 @@ void findStudentBaseInform(void)
 			printf("\n姓名: %s\n", studentBaseInformation[i].name);
 			printf("性别: %s\n", studentBaseInformation[i].sex);
 			printf("年龄: %s\n", studentBaseInformation[i].age);
-			printf("学号: %s\n\n", studentBaseInformation[i].number);
-			break;
+			printf("学号: %s\n", studentBaseInformation[i].number);
+			count++;
 		}
 	}
-	if (i == studentNum)
-		printf("\n未找到该学生!\n\n");
+	if (count == 0)
+		printf("\n未找到该学生!\n");
 }

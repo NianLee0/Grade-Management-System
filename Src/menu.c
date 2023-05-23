@@ -29,7 +29,7 @@ void mainMenu(void)
 
 /************************************************
  * @Function: userSelectMainMenu
- * @Description: 用户选择分菜单
+ * @Description: 用户选择子菜单
  * @Input: None
  * @Return: None
  * @Others: None
@@ -91,8 +91,7 @@ void userSelectMainMenu(void)
 	default:
 		system("cls");
 		printf("输入错误，请重新输入\n");
-		mainMenu();
-		break;
+		return;
 	}
 }
 

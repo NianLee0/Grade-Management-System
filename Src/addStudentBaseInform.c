@@ -69,7 +69,16 @@ void addStudentBaseInformToFile(void)
 	char inform[100];
 	informLinkedList* head;
 	head = addStudentBaseInform();
-	//TODO: 先加入结构体,再加入文件
+	for(int i = 0; i < studentNum; i++)
+	{
+		if(strcmp(studentBaseInformation[i].number,
+				head->next->next->next->next->data) == 0)
+		{
+			printf("学号重复,请重新输入\n");
+			addStudentBaseInformToFile();
+			return;
+		}
+	}
 	sprintf(inform, "%s,%s,%s,%s\n",
 			head->next->data,
 			head->next->next->data,

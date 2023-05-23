@@ -41,8 +41,10 @@ void studentBaseInformFilePathTest(void)
 		if (fp == NULL)
 		{
 			printf("学生基本信息文件不在默认路径\n");
+			fflush(stdin);
 			strcpy(studentBaseInformFilePath,
 					userFilePath(studentBaseInformFilePath));
+			printf("文件路径正确!\n\n");
 			system("pause");
 			system("cls");
 		}
@@ -72,9 +74,10 @@ void courseBaseInformFilePathTest(void)
 		if (fp == NULL)
 		{
 			printf("课程基本信息文件不在默认路径\n");
-			getchar();
+			fflush(stdin);
 			strcpy(courseBaseInformFilePath,
 					userFilePath(courseBaseInformFilePath));
+			printf("文件路径正确!\n\n");
 			system("pause");
 			system("cls");
 		}
@@ -104,8 +107,10 @@ void studentGradeInformFilePathTest(void)
 		if (fp == NULL)
 		{
 			printf("学生成绩信息文件不在默认路径\n");
+			fflush(stdin);
 			strcpy(studentGradeInformFilePath,
 					userFilePath(studentGradeInformFilePath));
+			printf("文件路径正确!\n\n");
 			system("pause");
 			system("cls");
 		}
@@ -141,11 +146,10 @@ char* userFilePath(char* path)
 	if ((fp = fopen(path, "r")) == NULL)
 	{
 		printf("文件打开失败!\n");
-		printf("请检查文件路径是否正确!\n");
+		printf("请检查文件路径是否正确!\n\n");
 		getchar();
 		userFilePath(path);
 	}
 	fclose(fp);
-	printf("文件路径正确!\n\n");
 	return path;
 }
