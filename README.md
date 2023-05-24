@@ -1,4 +1,3 @@
-# Grade-Management-System
 # 成绩管理系统(Grade Management System)
 ## 本程序实现了对于学生成绩管理的基本功能，具体实现功能如下：
 
