@@ -154,6 +154,3 @@ void showStudentInform(informLinkedList* head)
 	age = sex->next;
 	printf("Ñ§ºÅ: %s\n", age->next->data);
 }
-
-
-

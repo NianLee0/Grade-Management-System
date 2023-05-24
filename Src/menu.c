@@ -94,9 +94,3 @@ void userSelectMainMenu(void)
 		return;
 	}
 }
-
-
-
-
-
-

@@ -60,7 +60,7 @@ inputCourseName:
 			strcmp(studentGradeInformation[i].courseName, courseNameTarget) == 0)
 		{
 			system("cls");
-			printf("已找到该学生: \n");
+			printf("已找到该学生成绩: \n");
 			printf("姓名: %s\n", studentGradeInformation[i].studentName);
 			printf("课程: %s\n", studentGradeInformation[i].courseName);
 			printf("成绩: %s\n", studentGradeInformation[i].grade);
@@ -76,7 +76,7 @@ inputCourseName:
 	}
 	else
 	{
-		printf("\n请输入修改后的学生成绩信息:\n");
+		printf("\n请输入修改后的学生成绩信息\n");
 		printf("姓名: ");
 		scanf("%s", studentGradeInformation[i].studentName);
 		checkStudentBaseInform(i);

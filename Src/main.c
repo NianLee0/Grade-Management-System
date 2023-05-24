@@ -6,5 +6,4 @@ int main(void)
 	init();
 	while(1)
 		mainMenu();
-	return 0;
 }

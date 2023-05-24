@@ -74,7 +74,10 @@ void deleteStudentGradeInformConfirm(int targetStudentGradeNum)
 	fflush(stdin);
 	scanf("%c", &confirm);
 	if (confirm == 'Y' || confirm == 'y')
+	{
+		printf("\n已删除该成绩信息!\n");
 		deleteStudentGradeInformFromStructure(targetStudentGradeNum);
+	}
 	else if (confirm == 'N' || confirm == 'n' || confirm == '\n')
 	{
 		system("cls");

@@ -22,12 +22,13 @@ void mode2SubMenu(void)
 	printf("3. 删除学生信息\n");
 	printf("0. 返回主菜单\n");
 	printf("请输入你的选择(0~3): ");
+	fflush(stdin);
 	scanf("%hd", &userSelect);
 	switch (userSelect)
 	{
 	case 0:
 		system("cls");
-		return;
+		mainMenu();
 	case 1:
 		printf("\n添加学生信息\n");
 		addStudentBaseInformToFile();
@@ -44,7 +45,6 @@ void mode2SubMenu(void)
 		system("cls");
 		printf("输入错误，请重新输入\n");
 		mode2SubMenu();
-		break;
 	}
 }
 
@@ -66,12 +66,13 @@ void mode4SubMenu(void)
 	printf("3. 删除课程信息\n");
 	printf("0. 返回主菜单\n");
 	printf("请输入你的选择(0~3): ");
+	fflush(stdin);
 	scanf("%hd", &userSelect);
 	switch (userSelect)
 	{
 	case 0:
 		system("cls");
-		return;
+		mainMenu();
 	case 1:
 		printf("\n添加课程信息\n");
 		addCourseBaseInformToFile();
@@ -88,7 +89,6 @@ void mode4SubMenu(void)
 		system("cls");
 		printf("输入错误，请重新输入\n");
 		mode4SubMenu();
-		break;
 	}
 }
 
@@ -115,7 +115,7 @@ void mode5SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		return;
+		mainMenu();
 	case 1:
 		printf("\n查找学生成绩单\n");
 		findStudentGradeInformByStudent();
@@ -128,7 +128,6 @@ void mode5SubMenu(void)
 		system("cls");
 		printf("输入错误，请重新输入\n");
 		mode5SubMenu();
-		break;
 	}
 }
 
@@ -145,34 +144,34 @@ void mode6SubMenu(void)
 	short userSelect;
 	system("cls");
 	printf("请选择你的操作：\n");
-	printf("1. 添加成绩信息\n");
-	printf("2. 修改成绩信息\n");
-	printf("3. 删除成绩信息\n");
+	printf("1. 添加学生成绩信息\n");
+	printf("2. 修改学生成绩信息\n");
+	printf("3. 删除学生成绩信息\n");
 	printf("0. 返回主菜单\n");
 	printf("请输入你的选择(0~3): ");
+	fflush(stdin);
 	scanf("%hd", &userSelect);
 	switch (userSelect)
 	{
 	case 0:
 		system("cls");
-		return;
+		mainMenu();
 	case 1:
-		printf("\n添加学生信息\n");
+		printf("\n添加学生成绩信息\n");
 		addStudentGradeInformToFile();
 		break;
 	case 2:
-		printf("\n修改学生信息\n");
+		printf("\n修改学生成绩信息\n");
 		changeStudentGradeInform();
 		break;
 	case 3:
-		printf("\n删除学生信息\n");
+		printf("\n删除学生成绩信息\n");
 		deleteStudentGradeInform();
 		break;
 	default:
 		system("cls");
 		printf("输入错误，请重新输入\n");
 		mode6SubMenu();
-		break;
 	}
 }
 
@@ -199,7 +198,7 @@ void mode7SubMenu(void)
 	{
 	case 0:
 		system("cls");
-		return;
+		mainMenu();
 	case 1:
 		printf("\n导出学生成绩信息\n");
 		exportStudentData();
@@ -212,6 +211,5 @@ void mode7SubMenu(void)
 		system("cls");
 		printf("输入错误，请重新输入\n");
 		mode7SubMenu();
-		break;
 	}
 }
